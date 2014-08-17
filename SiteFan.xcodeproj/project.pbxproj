@@ -8,10 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		B89F36141997C86200825620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89F36131997C86200825620 /* AppDelegate.swift */; };
-		B89F36161997C86200825620 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89F36151997C86200825620 /* ViewController.swift */; };
-		B89F36191997C86200825620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89F36171997C86200825620 /* Main.storyboard */; };
 		B89F361B1997C86200825620 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B89F361A1997C86200825620 /* Images.xcassets */; };
 		B89F36271997C86200825620 /* SiteFanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89F36261997C86200825620 /* SiteFanTests.swift */; };
+		B89F36311997C96400825620 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89F36301997C96400825620 /* FeedViewController.swift */; };
+		B89F363319982BF500825620 /* TweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89F363219982BF500825620 /* TweetsViewController.swift */; };
+		B89F363519983E1400825620 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89F363419983E1400825620 /* FeedStore.swift */; };
+		B89F3637199AD7B500825620 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89F3636199AD7B500825620 /* FeedItem.swift */; };
+		B89F3639199C475700825620 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89F3638199C475700825620 /* WebViewController.swift */; };
+		B8C2B03D199D711F0069AA07 /* TweetsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C2B03C199D711F0069AA07 /* TweetsStore.swift */; };
+		B8C2B03F199D8EE00069AA07 /* TweetItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C2B03E199D8EE00069AA07 /* TweetItem.swift */; };
+		B8C2B04119A165F40069AA07 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C2B04019A165F40069AA07 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +34,18 @@
 		B89F360E1997C86100825620 /* SiteFan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiteFan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89F36121997C86100825620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B89F36131997C86200825620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B89F36151997C86200825620 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B89F36181997C86200825620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B89F361A1997C86200825620 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B89F36201997C86200825620 /* SiteFanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiteFanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89F36251997C86200825620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B89F36261997C86200825620 /* SiteFanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteFanTests.swift; sourceTree = "<group>"; };
+		B89F36301997C96400825620 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		B89F363219982BF500825620 /* TweetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetsViewController.swift; sourceTree = "<group>"; };
+		B89F363419983E1400825620 /* FeedStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
+		B89F3636199AD7B500825620 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		B89F3638199C475700825620 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		B8C2B03C199D711F0069AA07 /* TweetsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetsStore.swift; sourceTree = "<group>"; };
+		B8C2B03E199D8EE00069AA07 /* TweetItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetItem.swift; sourceTree = "<group>"; };
+		B8C2B04019A165F40069AA07 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8C2B04119A165F40069AA07 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +70,7 @@
 		B89F36051997C86100825620 = {
 			isa = PBXGroup;
 			children = (
+				B8C2B04019A165F40069AA07 /* SystemConfiguration.framework */,
 				B89F36101997C86100825620 /* SiteFan */,
 				B89F36231997C86200825620 /* SiteFanTests */,
 				B89F360F1997C86100825620 /* Products */,
@@ -76,8 +90,13 @@
 			isa = PBXGroup;
 			children = (
 				B89F36131997C86200825620 /* AppDelegate.swift */,
-				B89F36151997C86200825620 /* ViewController.swift */,
-				B89F36171997C86200825620 /* Main.storyboard */,
+				B89F36301997C96400825620 /* FeedViewController.swift */,
+				B89F363219982BF500825620 /* TweetsViewController.swift */,
+				B89F3638199C475700825620 /* WebViewController.swift */,
+				B89F363419983E1400825620 /* FeedStore.swift */,
+				B89F3636199AD7B500825620 /* FeedItem.swift */,
+				B8C2B03C199D711F0069AA07 /* TweetsStore.swift */,
+				B8C2B03E199D8EE00069AA07 /* TweetItem.swift */,
 				B89F361A1997C86200825620 /* Images.xcassets */,
 				B89F36111997C86100825620 /* Supporting Files */,
 			);
@@ -189,7 +208,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B89F36191997C86200825620 /* Main.storyboard in Resources */,
 				B89F361B1997C86200825620 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,8 +226,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B89F36161997C86200825620 /* ViewController.swift in Sources */,
+				B8C2B03D199D711F0069AA07 /* TweetsStore.swift in Sources */,
+				B89F363319982BF500825620 /* TweetsViewController.swift in Sources */,
+				B8C2B03F199D8EE00069AA07 /* TweetItem.swift in Sources */,
+				B89F3639199C475700825620 /* WebViewController.swift in Sources */,
+				B89F36311997C96400825620 /* FeedViewController.swift in Sources */,
 				B89F36141997C86200825620 /* AppDelegate.swift in Sources */,
+				B89F3637199AD7B500825620 /* FeedItem.swift in Sources */,
+				B89F363519983E1400825620 /* FeedStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,17 +254,6 @@
 			targetProxy = B89F36211997C86200825620 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B89F36171997C86200825620 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B89F36181997C86200825620 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B89F36281997C86200825620 /* Debug */ = {
@@ -326,6 +339,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SiteFan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -337,6 +351,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SiteFan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -395,6 +410,7 @@
 				B89F362C1997C86200825620 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B89F362D1997C86200825620 /* Build configuration list for PBXNativeTarget "SiteFanTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +419,7 @@
 				B89F362F1997C86200825620 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
